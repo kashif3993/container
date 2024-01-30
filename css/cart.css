@@ -1,0 +1,137 @@
+@font-face {
+    font-family: kashiffont;
+    src: url(../css/Poppins-Regular.ttf);
+  }
+  
+*{
+    font-family:kashiffont;
+}
+.navbar{
+    background-color:  #ffe9a0;
+    border-bottom: 2px solid white;
+}
+.nav-item a{
+    color: black;
+    font-size: 16px;
+    font-weight: 700;
+}
+.nav-item a:hover{
+    background-color:  #ffd54d;
+    border-radius: 10px;
+    color: white;
+    
+
+}
+/* cart section  */
+/* cart nav  */
+.ns{
+    margin-left: 150%;
+    margin-right: 5%;
+}
+.left-nav{
+    background-color: #ffe9a0;
+}
+.right-check{
+    background-color: #ffe9a0;
+}
+.to{
+    color: #B88E2F;
+}
+
+/* .right-checkout  */
+.rounded-pill:hover{
+    background-color: #ffe9a0;
+}
+.card{
+    background-color: #ffe9a0;
+    border-radius: 10px;
+    height: 110px;
+    width: 120px;
+}
+.Quantity{
+    /* border: 1px solid grey; */
+    width: 1px;
+    text-align: center;
+    padding-left: 10%;
+    /* padding-right: -100%; */
+}
+
+/* user feedback  */
+/* user feedback  */
+.del{
+    background-color:#FAF4F4 ;
+}
+.del span{
+    font-weight: 800;
+    font-size: 20px;
+}
+/* footer  */
+input[type = email]{
+    border-radius: 20px;
+    box-shadow: 0px 0px 10px rgb(204, 204, 204);
+}
+#button-addon2{
+    border-top-right-radius: 30px;
+    border-bottom-right-radius: 30px;
+}
+
+.thead{
+    background-color: #ffe9a0;
+    border-bottom: none;
+}
+tbody td span{
+    color: #ffe9a0;
+}
+footer{
+    width: 100%;
+}
+/* @media only screen and (min-width:300px) and (max-width:500px) {
+    .col-8{
+        width: 100px;
+    }
+    .thead{
+        width: 50%;
+    }
+} */
+@media (max-width: 992px) {
+    /* Adjustments for medium devices and below */
+    .col-md-8, .col-md-4 {
+        width: 100%;
+    }
+
+    .right-check {
+        margin-top: 20px;
+    }
+}
+
+@media (max-width: 768px) {
+    /* Adjustments for small devices and below */
+    .thead th {
+        font-size: 12px;
+    }
+
+    .Quantity input {
+        width: 40px; /* Adjust width for smaller screens */
+    }
+}
+
+@media (max-width: 576px) {
+    /* Adjustments for extra small devices and below */
+    .thead th {
+        font-size: 10px;
+    }
+
+    .Quantity input {
+        width: 30px; /* Adjust width for smaller screens */
+    }
+
+    .right-check {
+        padding: 10px;
+    }
+    .location{
+        display: none;
+    }
+    .col-sm-2{
+        text-align: center;
+    }
+}

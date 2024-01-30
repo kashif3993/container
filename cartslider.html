@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="bootstrap-5.0.2-dist_2/bootstrap-5.0.2-dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="fontawesome-free-5.15.4-web/css/all.min.css">
+    <link rel="stylesheet" href="fontawesome-free-5.15.4-web/js/all.min.js">
+    <script src="bootstrap-5.0.2-dist_2/bootstrap-5.0.2-dist/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="Poppins-Regular.ttf">
+    <link rel="stylesheet" href="css/cartslider.css">
+    
+    <title>Document</title>
+</head>
+
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light  ">
+        <div class="container-fluid ">
+            <a class="navbar-brand ms-5" href="#">Brand Name</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav "
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-center" id="navbarNav">
+                <ul class="navbar-nav ms-5">
+                    <li class="nav-item"><a class="nav-link mx-3" href="index.html">Home</a></li>
+                    <li class="nav-item"><a class="nav-link mx-3" href="Shop.html">Shop</a></li>
+                    <li class="nav-item"> <a class="nav-link mx-3" href="#">About</a></li>
+                    <li class="nav-item"> <a class="nav-link mx-3" href="contact.html">Contact</a> </li>
+                </ul>
+
+                <!-- Right-aligned items -->
+
+                <div class=" justify-content-end d-flex ms-5">
+                    <i class="fa fa-user me-3 mx-3"></i>
+                    <i class="fa fa-search me-3 mx-3"></i>
+                    <i class="fa fa-light fa-heart me-3 mx-3"></i>
+                    <i class="fas fa-cart-arrow-down me-3 mx-3"></i>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- slider  -->
+    <div class="offcanvas offcanvas-end" id="demo">
+        <div class="offcanvas-header">
+          <h1 class="offcanvas-title">Heading</h1>
+          <button type="button" class="btn-close" data-bs-dismiss="offcanvas"></button>
+        </div>
+        <div class="offcanvas-body">
+          <p>Some text lorem ipsum.</p>
+          <p>Some text lorem ipsum.</p>
+          <p>Some text lorem ipsum.</p>
+          <button class="btn btn-secondary" type="button">A Button</button>
+        </div>
+      </div>
+      
+      <div class="container-fluid mt-3">
+        <h3>Right Offcanvas</h3>
+        <p>The .offcanvas-end class positions the offcanvas to the right of the page.</p>
+        <button class="btn btn-primary" type="button" data-bs-toggle="offcanvas" data-bs-target="#demo">
+          Toggle Right Offcanvas
+        </button>
+      </div>
+
+</body>
+</html>

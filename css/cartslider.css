@@ -1,0 +1,26 @@
+@font-face {
+    font-family: kashiffont;
+    /* src: url(/container/Poppins-Regular.t  tf);
+    src: url(/container/Poppins-Regular.ttf); */
+    src: url(../css/Poppins-Regular.ttf);
+  }
+  
+*{
+    font-family:kashiffont;
+}
+.navbar{
+    background-color:  #ffe9a0;
+    border-bottom: 2px solid white;
+}
+.nav-link {
+    color: black;
+    font-size: 16px;
+    font-weight: 700;
+}
+.nav-link:hover{
+    background-color:  #ffd54d;
+    border-radius: 10px;
+    color: white;
+    
+
+}
